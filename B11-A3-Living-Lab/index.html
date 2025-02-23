@@ -25,9 +25,9 @@
       }
     </style>
   </head>
-  <body class="font-adlam-display container mx-auto my-4">
+  <body class="font-adlam-display mx-3 my-4">
     <!-- header Section -->
-    <header class="m-6 md:m-0">
+    <header class="container mx-auto">
       <nav>
         <div class="flex justify-between items-center">
           <div class="flex items-center">
@@ -59,7 +59,7 @@
         </div>
       </nav>
       <!-- hero section -->
-      <div class="lg:flex mt-12">
+      <div class="md:flex mt-12 ">
         <!-- text -->
         <div class="my-20">
           <h2 class="text-4xl font-bold">Pamper Your Pet, Because They Deserve the Bes</h2>
@@ -78,7 +78,7 @@
     <!-- main section -->
     <main>
       <!-- Browse By Categories section -->
-      <section class="m-6 md:m-0">
+      <section class="container mx-auto">
         <h2 class="text-3xl font-bold font-adlam-display mt-20">Browse By Categories</h2>
         <!-- Browse cards -->
         <div class="grid grid-cols-2 lg:grid-cols-6 mt-6 gap-4 mx-auto">
@@ -157,13 +157,13 @@
         </div>
       </section>
       <!-- Trending Pet Products -->
-      <section class="bg-pink-50">
-        <div class="m-6 md:m-0">
+      <section class=" bg-pink-50">
+        <div class="container mx-auto">
           <h2 class="text-3xl font-bold font-adlam-display my-16 mb-8">Trending Pet Products</h2>
           <!-- cards -->
-          <div class="grid lg:grid-cols-2 grid-cols-1">
+          <div class="grid md:grid-cols-2 grid-cols-1">
             <!-- card 1st -->
-            <div class="lg:flex justify-center px-4 py-6 bg-yellow-200 rounded-xl">
+            <div class="md:flex justify-center px-4 py-6 bg-yellow-200 rounded-xl">
               <div>
                 <h4 class="text-2xl font-bold">T-Shirt For dogs</h4>
                 <p class="text-xl text-gray-600 font-Sora py-2">
@@ -176,7 +176,7 @@
               </div>
             </div>
             <!-- card 2nd -->
-            <div class="grid lg:grid-cols-3 grid-cols-2 gap-4">
+            <div class="grid md:grid-cols-3 grid-cols-2 gap-4">
               <!-- card 1 -->
               <div class="flex justify-center items-center bg-white px-8 py-4 gap-4 rounded-xl">
                 <!-- img -->
@@ -416,12 +416,83 @@
         </div>
       </section>
       <!-- Everyday low Price -->
-       <section>
-        <h2>Everyday low Price</h2>
-        <!-- 1st card -->
-         <div></div>
-         <!-- 2nd card -->
-       </section>
+      <section class="container mx-auto">
+        <h2 class="text-3xl font-bold font-adlam-display my-16 mb-8">Everyday low Price</h2>
+        <div class="lg:flex gap-8">
+          <!-- 1st card -->
+          <div
+            class="flex justify-center items-center bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-xl"
+          >
+            <!-- text -->
+            <div class="ml-12">
+              <p class="hidden md:block font-sora text-gray-500 p-2">Under Price</p>
+              <h4 class="text-xl font-bold ">Pet Grooming Mitt</h4>
+              <p class="hidden md:block text-white p-2">(Easy Hair Removal)</p>
+              <p class="text-2xl font-bold p-2 md:text-black text-white">$7.99</p>
+            </div>
+            <!-- img -->
+            <div>
+              <img src="./Assignment_03_Category_0001/c1-assets/cute-dog-mid.png" alt="" />
+            </div>
+          </div>
+          <!-- 2nd card -->
+          <div
+            class="flex bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-xl"
+          >
+            <!-- text -->
+            <div class="ml-16 mt-12">
+              <h4 class="lg:text-xl font-bold p-2">T-Shirt for Dogs</h4>
+              <p class="text-2xl text-yellow-500 font-semibold p-2">$7.99</p>
+            </div>
+            <!-- img -->
+            <div>
+              <img src="./Assignment_03_Category_0001/c1-assets/cute-pet-mid.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <!-- Footer Section -->
+    <footer class="footer bg-yellow-100 text-base-content p-10">
+      <div class="grid md:grid-cols-3 grid-cols-1">
+        <div>
+        <!-- Browse part -->
+        <div>
+           <div class="flex items-center">
+            <img
+              class="w-[40px]"
+              src="./Assignment_03_Category_0001/c1-assets/logo-header.png"
+              alt=""
+            />
+            <p class="font-adlam-display text-gray-700 px-2">
+              Browse<samp class="text-yellow-300">4</samp>Pets
+            </p>
+          </div>
+          <p class="text-2xl font-Sora text-gray-600 mt-4">Discover a world of treats, toys, and essentials handpicked 
+            for your furry friends</p>
+        </div>
+          </div>
+         <!-- link part -->
+          <div>
+            <div>
+            <ul class="font-Sora mx-auto">
+              <li><a>Find a pet</a></li>
+              <li><a>Breeds</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          </div>
+          <!-- icon part -->
+           <div>
+            <p>Follow Us</p>
+            <div>
+              <a><i class="fa-brands fa-facebook"></i></a>
+              <a><i class="fa-brands fa-instagram"></i></a>
+              <a><i class="fa-brands fa-linkedin"></i></a>
+              <a><i class="fa-brands fa-youtube"></i></a>
+            </div>
+           </div>
+      </div>
+    </footer>
   </body>
 </html>
