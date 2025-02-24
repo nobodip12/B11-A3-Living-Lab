@@ -59,20 +59,22 @@
         </div>
       </nav>
       <!-- hero section -->
-      <div class="md:flex mt-12">
+      <div class="relative md:flex flex-col mt-12">
+        <div class="absolute text-xl md:text-4xl  text-center top-[55%] right-[30%] md:top-5 p-2 md:p-16 rounded-full bg-red-500 animate-bounce">40% OFF</div>
         <!-- text -->
-        <div class="my-20">
+        <div class="md:w-4/12 w-full">
+          
           <h2 class="text-4xl font-bold animate-pulse">
-            Pamper Your Pet, Because They Deserve the Bes
+            Pamper Your Pet, <span class="">Because They Deserve</span> the Bes
           </h2>
           <p class="text-gray-600 font-Sora py-6 animate-pulse">
-            Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop
+            Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop 
             now and make tails wag with joy!
           </p>
           <button class="bg-yellow-300 px-6 py-2 font-Sora rounded-md">Find a pet</button>
         </div>
         <!-- img -->
-        <div class="mt-24">
+        <div>
           <img src="./Assignment_03_Category_0001/c1-assets/cat-big.png" alt="" />
         </div>
       </div>
@@ -83,7 +85,7 @@
       <section class="container mx-auto">
         <h2 class="text-3xl font-bold font-adlam-display mt-20">Browse By Categories</h2>
         <!-- Browse cards -->
-        <div class="grid grid-cols-2 lg:grid-cols-6 mt-6 gap-4 mx-auto">
+        <div class="grid grid-cols-2 md:grid-cols-6 mt-6 gap-4 mx-auto">
           <!-- card 1 -->
           <div class="bg-yellow-200 grid justify-center py-8 rounded-lg">
             <img
@@ -419,6 +421,58 @@
           </div>
         </div>
       </section>
+
+      <!-- Discount Offers Section -->
+      <section class="container mx-auto">
+        <h2 class="text-3xl font-bold font-adlam-display mt-20">Offers in Browse4Pets</h2>
+        <!-- Browse cards -->
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-6 gap-4 mx-auto">
+          <!-- card 1 -->
+          <div
+            class="bg-gradient-to-r from-[#E9967A] to-[#ACD2FD] grid justify-center py-8 rounded-lg"
+          >
+            <img class="p-4" src="./Assignment_03_Category_0001/c1-assets/dog-cartoon.png" alt="" />
+            <div class="font-Sora items-center text-center mt-4">
+              <h3 class="text-xl font-bold">Dog</h3>
+              <p>10% Discount</p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="bg-gradient-to-r from-[#ACD2FD] to-[#F8CCFB] grid justify-center py-8 rounded-lg"
+          >
+            <img
+              class="p-4"
+              src="./Assignment_03_Category_0001/c1-assets/fish-cartoon.png"
+              alt=""
+            />
+            <div class="font-Sora items-center text-center mt-2">
+              <h3 w-[40px] class="text-xl font-bold">Fish</h3>
+              <p>10% Discount</p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div
+            class="bg-gradient-to-r from-[#F8CCFB] to-[#CD5C5C] grid justify-center py-8 rounded-lg"
+          >
+            <img class="p-4" src="./Assignment_03_Category_0001/c1-assets/cat-cartoon.png" alt="" />
+            <div class="font-Sora items-center text-center mt-4">
+              <h3 class="text-xl font-bold">Cat</h3>
+              <p>10% Discount</p>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div
+            class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] grid justify-center py-8 rounded-lg"
+          >
+            <img class="p-4" src="./Assignment_03_Category_0001/c1-assets/cat-cartoon.png" alt="" />
+            <div class="font-Sora items-center text-center mt-4">
+              <h3 class="text-xl font-bold">Cat</h3>
+              <p>10% Discount</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Everyday low Price -->
       <section class="container mx-auto">
         <h2 class="text-3xl font-bold font-adlam-display my-16 mb-8">Everyday low Price</h2>
@@ -456,11 +510,10 @@
     </main>
     <!-- Footer Section -->
     <footer class="bg-yellow-100 p-10 mt-64">
-
       <!-- footer Get Pawsome -->
       <div class="md:flex container mx-auto bg-purple-100 rounded-xl -mt-48">
         <!-- img -->
-        <div class=" md:mx-32 md:my-8">
+        <div class="md:mx-32 md:my-8">
           <img src="./Assignment_03_Category_0001/c1-assets/cute-pet-mid.png" alt="" />
         </div>
         <!-- text -->
